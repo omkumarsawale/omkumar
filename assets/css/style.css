@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header img{
+    width:50px;
+}
+
+.header .navbar-dark .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+   .navbar-dark .navbar-nav .show>.nav-link {
+    color: orange;
+}
+.header .nav-link{
+    text-transform:capitalize;
+}
+
+
+.header .nav-link:hover:hover {
+    box-shadow: #444 4 4 4px;
+    border-left: solid wheat;
+}  
+
+/* <!-- slider section start here --> */
+
+
+.slider-section .carousel-item img{
+   
+    height: 450px;
+}
+
+.slider-section{
+    height: 100%;
+    object-fit: cover;
+}
+/* .slider-section h5{
+    margin-bottom:0px;
+}
+.slider-section p{
+    margin-bottom:0px;
+} */
+.slider-section .btn{
+    margin-bottom:112px;
+}
+/* <!-- homeicon-section strat now --> */
+
+
+
+
+/* are you ready section start here */
+
+
+
+.homeheading {
+    background-image: url('https://d3nn873nee648n.cloudfront.net/900x600/19348/17-ER920700.jpg');
+    /* height:100vh;*/
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+   text-align: center;
+   /* background-image: linear-gradient(to left,#000a, #000d);
+   filter: brightness(60%); */
+   
+}
+/* lapto images section */
+
+
+
+/* video section start here  */
+
+
+.video-section{
+    background-image: url('https://d3nn873nee648n.cloudfront.net/900x600/18475/220-SM832798.jpg');
+    /* /* height:100vh; */
+    width: 100%; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+   /* background-image: linear-gradient(to left,#000a, #000d);
+   filter: brightness(60%); */
+   
+}
+.homeheading-candle{
+    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/19839/120-NL968231.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+}
+
+/* about section */
+
+/* own .carousel-item css  about ages*/
+
+
+/* .terminal-section .owl-prev{
+    position: absolute;
+    left: -75px;
+    font-size: 65px;
+    color: #f1d9ac;
+    top: 81px;
+} */
+
+/* .owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev,
+ .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    left: -75px;
+    font-size: 65px;
+    color: #f1d9ac;
+    top:0px;
+} */
+
+i.fa-solid.fa-arrow-left {
+    position: absolute;
+    left: -70px;
+    font-size: 40px;
+    top: 0px;
+    color: white;
+}
+
+i.fa-solid.fa-arrow-right {
+    position: absolute;
+    right:-70px;
+    font-size: 40px;
+    top: 0px;
+    color: white;
+} 
+
+
+/* help-sectionstart here  */
+
+
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: 16px;
+   
+}
+
+
+
+
+/* Responsive Text css */
+
+
+
+@media all and (max-width:768px){
+
+    .homeicon-section .fa-solid{
+        font-size: 40px;
+    }
+    .homeicon-section h1{
+        font-size:25px;
+    }
+    .homeicon-section p{
+        font-size:16px;
+    }
+    .homeheading h1{
+        font-size:25px;
+        margin-bottom: 10px;
+    }
+    .homeheading p{
+        font-size:16px;
+    }
+   
+    .laptop-section h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+    .laptop-section p{
+        font-size:16px;
+    }
+.laptop-section button.btn.btn-outline-danger{
+        margin-left: 80px;
+
+}
+.form-section h1{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.form-section p{
+    font-size:16px;
+}
+.form-section .name-form{
+    font-size: 14px;
+}
+.form-sectione .email-form{
+    font-size: 4px;
+}
+.om-S-Copyright p{
+font-size: 25px;
+
+}
+.help-section h1{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.slider-section h5{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.text-dark p{
+    font-size:16px;
+    display: inline-block;
+}
+}
